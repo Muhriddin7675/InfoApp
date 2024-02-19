@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#2C8E9A"
+    android:orientation="vertical">
+
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#fff">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+<!--            <ImageView-->
+<!--                android:id="@+id/back_1"-->
+<!--                android:layout_width="56dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:background="?android:selectableItemBackgroundBorderless"-->
+<!--                android:padding="16dp"-->
+<!--                android:src="@drawable/back2"-->
+<!--                app:tint="#087CD3" />-->
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/animationView"
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                app:lottie_autoPlay="true"
+                android:layout_marginStart="8dp"
+                app:lottie_fileName="exit_animation.json"
+                app:lottie_loop="true"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/info"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="end"
+                android:background="?android:selectableItemBackgroundBorderless"
+                android:padding="10dp"
+                android:layout_marginEnd="6dp"
+                android:src="@drawable/ic_info"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/my_font2"
+                android:gravity="center"
+                android:text="@string/programming_info"
+                android:textColor="#087CD3"
+                android:textSize="24sp" />
+
+        </FrameLayout>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/lineBook1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:selectableItemBackground">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="10dp"
+                    android:paddingHorizontal="8dp"
+                    android:src="@drawable/kitob1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="30dp"
+                    android:fontFamily="@font/my_font2"
+                    android:gravity="center"
+                    android:text="@string/c_dasturlash_tili_haqida_ma_lumot"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="3dp"
+                            android:background="#fff"
+                            />
+            <LinearLayout
+                android:id="@+id/lineBook2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:selectableItemBackground">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="10dp"
+                    android:paddingHorizontal="8dp"
+                    android:src="@drawable/kitob2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="30dp"
+
+                    android:fontFamily="@font/my_font2"
+                    android:gravity="center"
+                    android:text="@string/c_tili"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#fff"
+                />
+            <LinearLayout
+                android:id="@+id/lineBook3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:selectableItemBackground">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="10dp"
+                    android:paddingHorizontal="8dp"
+                    android:src="@drawable/kitob3" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="30dp"
+
+                    android:fontFamily="@font/my_font2"
+                    android:gravity="center"
+                    android:text="@string/c_shap_tili"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#fff"
+                />
+            <LinearLayout
+                android:id="@+id/lineBook4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:selectableItemBackground">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="10dp"
+                    android:paddingHorizontal="8dp"
+                    android:src="@drawable/kitob4" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="30dp"
+
+                    android:fontFamily="@font/my_font2"
+                    android:gravity="center"
+                    android:text="@string/java_dasturlash_tili_haqida_ma_lumot"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#fff"
+                />
+            <LinearLayout
+                android:id="@+id/lineBook5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:selectableItemBackground">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="10dp"
+                    android:paddingHorizontal="8dp"
+                    android:src="@drawable/kitob5" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="30dp"
+
+                    android:fontFamily="@font/my_font2"
+                    android:gravity="center"
+                    android:text="@string/javascript_dasturlash_tili_haqida_ma_lumot"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#fff"
+                />
+            <LinearLayout
+                android:id="@+id/lineBook6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:selectableItemBackground">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="10dp"
+                    android:paddingHorizontal="8dp"
+                    android:src="@drawable/kitob6" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="30dp"
+
+                    android:fontFamily="@font/my_font2"
+                    android:gravity="center"
+                    android:text="@string/kotlin_dasturlash_tili_haqida_ma_lumot"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#fff"
+                />
+            <LinearLayout
+                android:id="@+id/lineBook7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:selectableItemBackground">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="10dp"
+                    android:paddingHorizontal="8dp"
+                    android:src="@drawable/kitob7" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="30dp"
+
+                    android:fontFamily="@font/my_font2"
+                    android:gravity="center"
+                    android:text="@string/python_dasturlash_tili_haqida_ma_lumot"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#fff"
+                />
+            <LinearLayout
+                android:id="@+id/lineBook8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:selectableItemBackground">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="10dp"
+                    android:paddingHorizontal="8dp"
+                    android:src="@drawable/kitob8" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="30dp"
+
+                    android:fontFamily="@font/my_font2"
+                    android:gravity="center"
+                    android:text="@string/php_dasturlash_tili_haqida_ma_lumot"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#fff"
+                />
+            <LinearLayout
+                android:id="@+id/lineBook9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:selectableItemBackground">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="10dp"
+                    android:paddingHorizontal="8dp"
+                    android:src="@drawable/kitob9" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="30dp"
+
+                    android:fontFamily="@font/my_font2"
+                    android:gravity="center"
+                    android:text="@string/css"
+
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#fff"
+                />
+            <LinearLayout
+                android:id="@+id/lineBook10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:selectableItemBackground">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="10dp"
+                    android:paddingHorizontal="8dp"
+                    android:src="@drawable/swift" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="30dp"
+                    android:fontFamily="@font/my_font2"
+                    android:gravity="center"
+                    android:text="@string/swift_info"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#fff"
+                />
+            <LinearLayout
+                android:id="@+id/lineBook11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:selectableItemBackground">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="10dp"
+                    android:paddingHorizontal="8dp"
+                    android:src="@drawable/tayp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="30dp"
+                    android:fontFamily="@font/my_font2"
+                    android:gravity="center"
+                    android:text="@string/taypscript_dasturlash_tili_haqida_ma_lumot"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#fff"
+                />
+            <LinearLayout
+                android:id="@+id/lineBook12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:selectableItemBackground">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="10dp"
+                    android:paddingHorizontal="8dp"
+                    android:src="@drawable/rust" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="30dp"
+                    android:fontFamily="@font/my_font2"
+                    android:gravity="center"
+                    android:text="Rust dasturlash tili haqida ma'lumot"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#fff"
+                />
+            <LinearLayout
+                android:id="@+id/lineBook13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:selectableItemBackground">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="10dp"
+                    android:paddingHorizontal="8dp"
+                    android:src="@drawable/r_icon" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="30dp"
+                    android:fontFamily="@font/my_font2"
+                    android:gravity="center"
+                    android:text="R dasturlash tili haqida ma'lumot"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#fff"
+                />
+            <LinearLayout
+                android:id="@+id/lineBook14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:selectableItemBackground">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="10dp"
+                    android:paddingHorizontal="8dp"
+                    android:src="@drawable/dart" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="30dp"
+                    android:fontFamily="@font/my_font2"
+                    android:gravity="center"
+                    android:text="Dart dasturlash tili haqida ma'lumot"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#fff"
+                />
+            <LinearLayout
+                android:id="@+id/lineBook15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:selectableItemBackground">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="10dp"
+                    android:paddingHorizontal="8dp"
+                    android:src="@drawable/scala" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="30dp"
+                    android:fontFamily="@font/my_font2"
+                    android:gravity="center"
+                    android:text="Scala dasturlash tili haqida ma'lumot"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#fff"
+                />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Information Programming App</string>
+    <string name="info_haqida_malumot">Info app 10.13.2023 yil Valiyev Muhriddin tomonidan yaratilgan. Bu info appdan siz dasturlashga doir ma\'lumotlarmi olishingiz mumkin.Dastrulash tillari, dastur tuzuvchilar dasturiy ta\'minotni va ishga tushirish uchun dasturiy ta\'minot uchun dasturlash dasturlash tillaridir. Bu tillar, dasturlash orqali turli xil narsalarni sinab ko\'ring, masalan, veb-saytlar, mobil ilovalar, ma\'lumotlar tahlilini amalga oshirish va joy. vaqt ko\'plab mashhur dastrulash tillari mavjud: Python: Python maqsadli dasturlash tili va mos keng tarqalgan o\'rganish uchun keladi. Bu oddiy sintaksis va mustahkamlangan kutubxonalari bilan turadi. Python dasturlash tilini o\'rganish uchun bir nechta resurslar mavjud. JavaScript: JavaScript, brauzerlar uchun dasturlash uchun oddiy va mashhur. Bu, vebsaytlar va veb-saytlarni ishga tushirish uchun juda kuchli bo\'lib, frontend va backend dasturlashda qo\'yilgan. Java: Java, murakkab, o\'rta tekshirish obyektoriy dasturlash tili. Bu, mobil ilovalar, veb-saytlar, qo\'shimcha o\'yinlar va serverlar uchun qurilmalar. C++ C++ murakkab dasturlash tili: va kompyuter grafikasi, o\'yinlar, kriptovalyutalar, boshqa kabi yuqori tezlikdagi ilovalar uchun. Bu til, yuqori darajada nazorat va optimallashtirish qiladi. C#: C#, Microsoft tomonidan ishlab chiqarilgan tillar va Windows dasturlarini ishlab chiqarishda keng tarqalgan. Bu til, .NET platformasiga amaliy dasturlarni ishlab chiqishda.</string>
+    <string name="information">Information</string>
+    <string name="info">Info</string>
+    <string name="c_dasturlash_tili_haqida_ma_lumot">C++ dasturlash tili haqida ma\'lumot</string>
+    <string name="c_tili">C dasturlash tili haqida ma\'lumot</string>
+    <string name="c_shap_tili">C# dasturlash tili haqida ma\'lumot</string>
+    <string name="java_dasturlash_tili_haqida_ma_lumot">Java dasturlash tili haqida ma\'lumot</string>
+    <string name="javascript_dasturlash_tili_haqida_ma_lumot">Javascript dasturlash tili haqida ma\'lumot</string>
+    <string name="kotlin_dasturlash_tili_haqida_ma_lumot">Kotlin dasturlash tili haqida ma\'lumot</string>
+    <string name="python_dasturlash_tili_haqida_ma_lumot">Python dasturlash tili haqida ma\'lumot</string>
+    <string name="php_dasturlash_tili_haqida_ma_lumot">PHP dasturlash tili haqida ma\'lumot</string>
+    <string name="css">CSS haqida ma\'lumot </string>
+    <string name="swift_info">Swift dasturlash tili haqida ma\'lumot</string>
+    <string name="taypscript_dasturlash_tili_haqida_ma_lumot">TaypScript dasturlash tili haqida ma\'lumot</string>
+    <string name="ma_lumot">Ma\'lumot</string>
+    <string name="programming_info">Programming Info</string>
+    <string name="information1">Information</string>
+</resources>

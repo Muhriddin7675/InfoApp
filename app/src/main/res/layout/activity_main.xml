@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:background="#2C8E9A"
     android:orientation="vertical">
-
 
 
     <com.google.android.material.appbar.AppBarLayout
@@ -18,21 +16,21 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-<!--            <ImageView-->
-<!--                android:id="@+id/back_1"-->
-<!--                android:layout_width="56dp"-->
-<!--                android:layout_height="match_parent"-->
-<!--                android:background="?android:selectableItemBackgroundBorderless"-->
-<!--                android:padding="16dp"-->
-<!--                android:src="@drawable/back2"-->
-<!--                app:tint="#087CD3" />-->
+            <!--            <ImageView-->
+            <!--                android:id="@+id/back_1"-->
+            <!--                android:layout_width="56dp"-->
+            <!--                android:layout_height="match_parent"-->
+            <!--                android:background="?android:selectableItemBackgroundBorderless"-->
+            <!--                android:padding="16dp"-->
+            <!--                android:src="@drawable/back2"-->
+            <!--                app:tint="#087CD3" />-->
 
             <com.airbnb.lottie.LottieAnimationView
                 android:id="@+id/animationView"
                 android:layout_width="56dp"
                 android:layout_height="match_parent"
-                app:lottie_autoPlay="true"
                 android:layout_marginStart="8dp"
+                app:lottie_autoPlay="true"
                 app:lottie_fileName="exit_animation.json"
                 app:lottie_loop="true"
                 tools:ignore="MissingConstraints" />
@@ -42,11 +40,10 @@
                 android:layout_width="45dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="end"
+                android:layout_marginEnd="6dp"
                 android:background="?android:selectableItemBackgroundBorderless"
                 android:padding="10dp"
-                android:layout_marginEnd="6dp"
-                android:src="@drawable/ic_info"
-                />
+                android:src="@drawable/ic_info" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -64,19 +61,21 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="4dp">
 
         <LinearLayout
-
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <LinearLayout
                 android:id="@+id/lineBook1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="?android:selectableItemBackground">
+                android:layout_marginHorizontal="4dp"
+                android:layout_marginVertical="4dp"
+                android:background="@drawable/bg_linner_layout">
 
                 <ImageView
                     android:layout_width="110dp"
@@ -97,16 +96,17 @@
 
 
             </LinearLayout>
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="3dp"
-                            android:background="#fff"
-                            />
+
+
             <LinearLayout
                 android:id="@+id/lineBook2"
+                android:background="@drawable/bg_linner_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="?android:selectableItemBackground">
+
+                android:layout_marginHorizontal="4dp"
+                android:layout_marginVertical="4dp"
+                >
 
                 <ImageView
                     android:layout_width="110dp"
@@ -127,16 +127,15 @@
                     android:textSize="20sp" />
 
             </LinearLayout>
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="3dp"
-                android:background="#fff"
-                />
+
+
             <LinearLayout
                 android:id="@+id/lineBook3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="?android:selectableItemBackground">
+                android:layout_marginHorizontal="4dp"
+                android:layout_marginVertical="4dp"
+                android:background="@drawable/bg_linner_layout">
 
                 <ImageView
                     android:layout_width="110dp"
@@ -157,16 +156,15 @@
                     android:textSize="20sp" />
 
             </LinearLayout>
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="3dp"
-                android:background="#fff"
-                />
+
+
             <LinearLayout
                 android:id="@+id/lineBook4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="?android:selectableItemBackground">
+                android:layout_marginHorizontal="4dp"
+                android:layout_marginVertical="4dp"
+                android:background="@drawable/bg_linner_layout">
 
                 <ImageView
                     android:layout_width="110dp"
@@ -187,16 +185,15 @@
                     android:textSize="20sp" />
 
             </LinearLayout>
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="3dp"
-                android:background="#fff"
-                />
+
+
             <LinearLayout
                 android:id="@+id/lineBook5"
                 android:layout_width="match_parent"
+                android:layout_marginHorizontal="4dp"
+                android:layout_marginVertical="4dp"
                 android:layout_height="wrap_content"
-                android:background="?android:selectableItemBackground">
+                android:background="@drawable/bg_linner_layout">
 
                 <ImageView
                     android:layout_width="110dp"
@@ -217,16 +214,15 @@
                     android:textSize="20sp" />
 
             </LinearLayout>
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="3dp"
-                android:background="#fff"
-                />
+
+
             <LinearLayout
                 android:id="@+id/lineBook6"
                 android:layout_width="match_parent"
+                android:layout_marginHorizontal="4dp"
+                android:layout_marginVertical="4dp"
                 android:layout_height="wrap_content"
-                android:background="?android:selectableItemBackground">
+                android:background="@drawable/bg_linner_layout">
 
                 <ImageView
                     android:layout_width="110dp"
@@ -247,16 +243,15 @@
                     android:textSize="20sp" />
 
             </LinearLayout>
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="3dp"
-                android:background="#fff"
-                />
+
+
             <LinearLayout
                 android:id="@+id/lineBook7"
                 android:layout_width="match_parent"
+                android:layout_marginHorizontal="4dp"
+                android:layout_marginVertical="4dp"
                 android:layout_height="wrap_content"
-                android:background="?android:selectableItemBackground">
+                android:background="@drawable/bg_linner_layout">
 
                 <ImageView
                     android:layout_width="110dp"
@@ -277,16 +272,15 @@
                     android:textSize="20sp" />
 
             </LinearLayout>
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="3dp"
-                android:background="#fff"
-                />
+
+
             <LinearLayout
                 android:id="@+id/lineBook8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="?android:selectableItemBackground">
+                android:layout_marginHorizontal="4dp"
+                android:layout_marginVertical="4dp"
+                android:background="@drawable/bg_linner_layout">
 
                 <ImageView
                     android:layout_width="110dp"
@@ -307,16 +301,15 @@
                     android:textSize="20sp" />
 
             </LinearLayout>
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="3dp"
-                android:background="#fff"
-                />
+
+
             <LinearLayout
                 android:id="@+id/lineBook9"
                 android:layout_width="match_parent"
+                android:layout_marginHorizontal="4dp"
+                android:layout_marginVertical="4dp"
                 android:layout_height="wrap_content"
-                android:background="?android:selectableItemBackground">
+                android:background="@drawable/bg_linner_layout">
 
                 <ImageView
                     android:layout_width="110dp"
@@ -338,16 +331,15 @@
                     android:textSize="20sp" />
 
             </LinearLayout>
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="3dp"
-                android:background="#fff"
-                />
+
+
             <LinearLayout
                 android:id="@+id/lineBook10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="?android:selectableItemBackground">
+                android:layout_marginHorizontal="4dp"
+                android:layout_marginVertical="4dp"
+                android:background="@drawable/bg_linner_layout">
 
                 <ImageView
                     android:layout_width="110dp"
@@ -367,16 +359,15 @@
                     android:textSize="20sp" />
 
             </LinearLayout>
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="3dp"
-                android:background="#fff"
-                />
+
+
             <LinearLayout
                 android:id="@+id/lineBook11"
                 android:layout_width="match_parent"
+                android:layout_marginHorizontal="4dp"
+                android:layout_marginVertical="4dp"
                 android:layout_height="wrap_content"
-                android:background="?android:selectableItemBackground">
+                android:background="@drawable/bg_linner_layout">
 
                 <ImageView
                     android:layout_width="110dp"
@@ -396,16 +387,15 @@
                     android:textSize="20sp" />
 
             </LinearLayout>
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="3dp"
-                android:background="#fff"
-                />
+
+
             <LinearLayout
                 android:id="@+id/lineBook12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="?android:selectableItemBackground">
+                android:layout_marginHorizontal="4dp"
+                android:layout_marginVertical="4dp"
+                android:background="@drawable/bg_linner_layout">
 
                 <ImageView
                     android:layout_width="110dp"
@@ -420,21 +410,20 @@
                     android:layout_marginHorizontal="30dp"
                     android:fontFamily="@font/my_font2"
                     android:gravity="center"
-                    android:text="Rust dasturlash tili haqida ma'lumot"
+                    android:text="@string/rust_dasturlash_tili_haqida_ma_lumot"
                     android:textColor="#fff"
                     android:textSize="20sp" />
 
             </LinearLayout>
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="3dp"
-                android:background="#fff"
-                />
+
+
             <LinearLayout
                 android:id="@+id/lineBook13"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="?android:selectableItemBackground">
+                android:layout_marginHorizontal="4dp"
+                android:layout_marginVertical="4dp"
+                android:background="@drawable/bg_linner_layout">
 
                 <ImageView
                     android:layout_width="110dp"
@@ -449,21 +438,20 @@
                     android:layout_marginHorizontal="30dp"
                     android:fontFamily="@font/my_font2"
                     android:gravity="center"
-                    android:text="R dasturlash tili haqida ma'lumot"
+                    android:text="@string/r_dasturlash_tili_haqida_ma_lumot"
                     android:textColor="#fff"
                     android:textSize="20sp" />
 
             </LinearLayout>
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="3dp"
-                android:background="#fff"
-                />
+
+
             <LinearLayout
                 android:id="@+id/lineBook14"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="?android:selectableItemBackground">
+                android:layout_marginHorizontal="4dp"
+                android:layout_marginVertical="4dp"
+                android:background="@drawable/bg_linner_layout">
 
                 <ImageView
                     android:layout_width="110dp"
@@ -478,21 +466,20 @@
                     android:layout_marginHorizontal="30dp"
                     android:fontFamily="@font/my_font2"
                     android:gravity="center"
-                    android:text="Dart dasturlash tili haqida ma'lumot"
+                    android:text="@string/dart_dasturlash_tili_haqida_ma_lumot"
                     android:textColor="#fff"
                     android:textSize="20sp" />
 
             </LinearLayout>
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="3dp"
-                android:background="#fff"
-                />
+
+
             <LinearLayout
                 android:id="@+id/lineBook15"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="?android:selectableItemBackground">
+                android:layout_marginHorizontal="4dp"
+                android:layout_marginVertical="4dp"
+                android:background="@drawable/bg_linner_layout">
 
                 <ImageView
                     android:layout_width="110dp"
@@ -507,16 +494,12 @@
                     android:layout_marginHorizontal="30dp"
                     android:fontFamily="@font/my_font2"
                     android:gravity="center"
-                    android:text="Scala dasturlash tili haqida ma'lumot"
+                    android:text="@string/scala_dasturlash_tili_haqida_ma_lumot"
                     android:textColor="#fff"
                     android:textSize="20sp" />
 
             </LinearLayout>
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="3dp"
-                android:background="#fff"
-                />
+
         </LinearLayout>
 
     </ScrollView>

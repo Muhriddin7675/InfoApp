@@ -17,4 +17,8 @@
     <string name="ma_lumot">Ma\'lumot</string>
     <string name="programming_info">Programming Info</string>
     <string name="information1">Information</string>
+    <string name="scala_dasturlash_tili_haqida_ma_lumot">Scala dasturlash tili haqida ma\'lumot</string>
+    <string name="dart_dasturlash_tili_haqida_ma_lumot">Dart dasturlash tili haqida ma\'lumot</string>
+    <string name="r_dasturlash_tili_haqida_ma_lumot">R dasturlash tili haqida ma\'lumot</string>
+    <string name="rust_dasturlash_tili_haqida_ma_lumot">Rust dasturlash tili haqida ma\'lumot</string>
 </resources>

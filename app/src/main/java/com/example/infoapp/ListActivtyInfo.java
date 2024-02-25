@@ -1,5 +1,6 @@
 package com.example.infoapp;
 
+import androidx.activity.OnBackPressedCallback;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -33,6 +34,22 @@ public class ListActivtyInfo extends AppCompatActivity {
                         finish();
                     }).create().show();
         });
+
+        OnBackPressedCallback callback = new OnBackPressedCallback(true) {
+            @Override
+            public void handleOnBackPressed() {
+                new AlertDialog.Builder(ListActivtyInfo.this)
+                        .setTitle("Chiqish")
+                        .setMessage("Siz info programming ilovadan chiqmoqchimisiz ?")
+                        .setNegativeButton("Yo'q", (dialog, which) -> {
+                        })
+                        .setPositiveButton("Ha", (dialog, which) -> {
+                            finish();
+                        }).create().show();
+            }
+        };
+
+        this.getOnBackPressedDispatcher().addCallback(this, callback);
 
         findViewById(R.id.info).setOnClickListener(v -> {
             startActivity(new Intent(this, InfoActivity.class));
